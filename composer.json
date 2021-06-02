@@ -1,0 +1,29 @@
+{
+    "name": "code-lives/paypal",
+    "type": "library",
+    "description": "Alipay和WeChat的支付、退款、支付查询SDK",
+    "keywords": [
+		"alipay",
+		"weixin",
+		"WeChat",
+		"支付宝支付",
+		"微信支付",
+		"支付接口",
+		"payment",
+		"refund"
+	],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+			"wxalipay\\paypal\\": "/src"
+		}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
