@@ -13,6 +13,14 @@
 		"refund"
 	],
     "license": "MIT",
+    "version":"1.0",
+    "authors": [
+        {
+            "name": "lijie",
+            "email": "18734351007@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6"
     },
@@ -20,10 +28,5 @@
         "psr-4": {
 			"wxalipay\\paypal\\": "/src"
 		}
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.x-dev"
-        }
     }
 }
