@@ -2,7 +2,7 @@
 
 ## 安装
 ```shell
-composer require wxalipay/paypal "v0.0.2"
+composer require wxalipay/paypal 
 ```
 
 ## 支持的支付、查询、退款方法
